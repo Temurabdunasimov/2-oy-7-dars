@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    max-width: 1168px;
+    max-height: 576px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.section-img{
+    max-width: 576px;
+    max-height: 576px;
+}
+
+.section-pic{
+    width: 576px;
+    height: 576px;
+}
+
+.section-text{
+    margin: auto;
+    font-family: 'Poppins';
+    
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+
+}
+
+.text{
+   max-width: 384px;
+   min-width: 263px;
+   color: #575445;
+  
+}
+
+.section-btn{
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 8px;
+    
+}
+
+.flex{
+    margin-top: 120px;
+}
+
+.nav2{
+    width: 100%;
+    min-height: 600px;
+    background-image: url(pictures/oushen.png);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+nav{
+    width: 615px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #292C32;
+    margin: 40px;
+    
+
+}
+
+ul{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.shop{
+    height: 393px;
+    background-color: #375C58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    
+
+}
+
+.shop-text{
+    max-width: 538px;
+    min-width: 430px;
+    color: #FAFAFC;
+    text-align: center;
+    
+}
+
+.shop-btn{
+    height: 44px;
+    width: 111px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Poppins';
+    background-color: white;
+
+}
